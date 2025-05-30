@@ -22,5 +22,19 @@ console.log("Depois do pop: Ultima tarefa removida");
 
 console.table(tarefas)
 
+console.log("----------------------------------");
+
+//unshift
+
+console.log
+("Antes do UnShift");
+console.table(tarefas);
+
+tarefas.unshift("Tomar remedio")
+
+console.log("Depois do Unshift");
+console.table(tarefas);
+
+
 
 
