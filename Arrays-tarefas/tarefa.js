@@ -50,6 +50,28 @@ console.table(tarefas);
 console.log
 ("Estilo Removido:", estiloRemovidoo);
 
+console.log("---------------------------------");
+
+// includes verifica a existencia
+
+console.log("A lista inclui 'Ir a academia' ?", tarefas.includes('Ir à academia'));
+
+if (tarefas.includes = true) {
+    console.log(`A tarefa já está na lista`);
+    
+} 
+else  {
+
+tarefas.push("Ir à academia")
+console.log(`A tarefa foi adicionada`);
+
+console.table(tarefas)
+
+}
+
+console.log("--------------------------");
+
+
 
 
 
