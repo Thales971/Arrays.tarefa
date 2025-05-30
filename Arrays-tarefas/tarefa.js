@@ -115,6 +115,14 @@ let novaPalavra = tarefas.map(Item=>"Fazer: "+ Item)
 
 console.log(novaPalavra);
 
+console.log(`-------------------------`);
+
+let tarefaFiltrada = tarefas.filter(tarefa=> tarefa.length > 15)
+
+console.log(tarefaFiltrada);
+
+
+
 
 
 
