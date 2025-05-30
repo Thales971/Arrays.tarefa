@@ -99,6 +99,17 @@ console.table(tarefas);
 
 console.log(`---------------------------`);
 
+// Concatena listas de tarefas
+
+let tarefa1 = ["Dormir","Jantar","Acordar"]
+
+let tarefa2 = ["Ir ao Sesi","pegar a perua","Chegar no senai"]
+
+console.log("tarefa combinada:", tarefa1.concat(tarefa2));
+
+console.log(`------------------------------`);
+
+
 
 
 
