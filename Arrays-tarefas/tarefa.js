@@ -132,6 +132,14 @@ console.log(ordenadas);
 console.log("--------------");
 
 
+// Inverte ordem das tarefas: Reverse
+
+let reverso = tarefas.reverse()
+
+console.log(reverso);
+
+
+
 
 
 
