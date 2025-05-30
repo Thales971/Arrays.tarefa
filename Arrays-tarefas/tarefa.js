@@ -71,6 +71,16 @@ console.table(tarefas)
 
 console.log("--------------------------");
 
+// join adiciona elementos a string
+
+console.log("Tarefas como String: ", tarefas.join(", "));
+
+
+
+
+
+
+
 
 
 
