@@ -75,6 +75,15 @@ console.log("--------------------------");
 
 console.log("Tarefas como String: ", tarefas.join(", "));
 
+console.log("--------------------");
+
+
+// Slice extrair elementos 
+
+console.log(" Extrair parte das tarefas (índices 2 ao 4):", tarefas.slice(2, 5));
+
+
+
 
 
 
