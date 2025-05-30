@@ -121,6 +121,20 @@ let tarefaFiltrada = tarefas.filter(tarefa=> tarefa.length > 15)
 
 console.log(tarefaFiltrada);
 
+console.log("------------------");
+
+// Organize as tarefas em ordem alfabética: Sort
+
+let ordenadas = tarefas.sort()
+
+console.log(ordenadas);
+
+console.log("--------------");
+
+
+
+
+
 
 
 
