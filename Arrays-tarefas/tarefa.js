@@ -109,6 +109,12 @@ console.log("tarefa combinada:", tarefa1.concat(tarefa2));
 
 console.log(`------------------------------`);
 
+// Map mapeia a lista inteira
+
+let novaPalavra = tarefas.map(Item=>"Fazer: "+ Item)
+
+console.log(novaPalavra);
+
 
 
 
