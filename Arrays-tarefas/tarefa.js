@@ -24,7 +24,7 @@ console.table(tarefas)
 
 console.log("----------------------------------");
 
-//unshift
+//unshift adicionar no inicio
 
 console.log
 ("Antes do UnShift");
@@ -34,6 +34,25 @@ tarefas.unshift("Tomar remedio")
 
 console.log("Depois do Unshift");
 console.table(tarefas);
+
+console.log("----------------------------------");
+
+// Shift remove a primeira tarefa
+console.log
+("Antes do Shift");
+console.table(tarefas);
+
+let estiloRemovidoo = tarefas.shift();
+
+console.log("Depois do shift");
+console.table(tarefas);
+
+console.log
+("Estilo Removido:", estiloRemovidoo);
+
+
+
+
 
 
 
