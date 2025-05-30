@@ -82,6 +82,28 @@ console.log("--------------------");
 
 console.log(" Extrair parte das tarefas (índices 2 ao 4):", tarefas.slice(2, 5));
 
+console.log("------------------");
+
+
+// Splice altera a lista em um indice expecifico
+
+console.log("Antes do splice:");
+console.table(tarefas);
+
+
+let elementosRemovidos = tarefas.splice(3, 1);
+let termoAdicionado = tarefas.splice(3,0, `Dar banho ao gato`)
+
+console.log("Depois do splice");
+console.table(tarefas);
+
+console.log(`---------------------------`);
+
+
+
+
+
+
 
 
 
